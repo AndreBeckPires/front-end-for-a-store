@@ -1,3 +1,8 @@
+@font-face{
+  font-family: cc;
+  src: url(fonts/COMPUTERRobot.ttf);
+}
+
 #top-banner{
     display: flex;
     justify-content: center;
@@ -19,14 +24,19 @@ body{
     font-size: xx-large;
 }
 h1{
+    font-family: cc;
     border-color: #060270;
     border-style: dotted;
     border-top: hidden;
     border-left: hidden;
     border-right: hidden;
     padding-bottom: 70px;
+    font-size: 380%;
 }
-
+h2{
+  font-family: cc;
+  font-size: 200%;
+}
 #valores{
     border-color: #060270;
     border-style: dotted;
@@ -66,3 +76,24 @@ table {
     border-right: hidden;
     padding-bottom: 100px;
   }
+
+  #descricao{
+    width: 250px;
+    height: 150px;
+  }
+
+  #agenda{
+    text-align: center;
+    margin-left: 42%;
+    border-style:solid;
+    margin: 30%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+  }
+
+  footer{
+    background-color:  #040246;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+}
